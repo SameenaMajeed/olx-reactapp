@@ -15,7 +15,7 @@ function Login() {
   const emailRef = useRef(null);
   const passwordRef = useRef(null);
   useEffect(() => {
-    emailRef.current?.focus();
+    emailRef.current.focus();
   }, []);
 
   const [emailError, setEmailError] = useState('');
